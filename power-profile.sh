@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TLPPATH='/etc/default/'
-PROFILES='/home/robert/Tools/power-modes/profiles/'
+PROFILES='FIXME/profiles/'
 ORIG='tlp_orig'
 TLP='tlp'
 CURFILE=''
