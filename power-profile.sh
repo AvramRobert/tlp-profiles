@@ -18,7 +18,7 @@ function exchange() {
   return 0
 }
 
-function redo() {
+function reset() {
 
   if [ -e "$TLPPATH$ORIG" ]
   then
@@ -86,6 +86,6 @@ then
   CURFILE='tlp_default'
   exchange
 else
-  echo 'Option: Init'
-  redo
+  echo 'Option: Reset'
+  reset
 fi
