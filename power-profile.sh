@@ -36,6 +36,10 @@ function status() {
   tlp stat -c | grep CPU_SCALING_GOVERNOR_ON_AC
   tlp stat -c | grep CPU_SCALING_GOVERNOR_ON_BAT
   echo ''
+  echo 'CPU Max Freq [kHz]'
+  tlp stat -c | grep CPU_SCALING_MAX_FREQ_ON_AC
+  tlp stat -c | grep CPU_SCALING_MAX_FREQ_ON_BAT
+  echo ''
   echo 'Turbo Boost [1 = on, 0 = off]'
   tlp stat -c | grep CPU_BOOST_ON_AC
   tlp stat -c | grep CPU_BOOST_ON_BAT
